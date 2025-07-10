@@ -1,0 +1,357 @@
+.merriweather-primary-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-secondary-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.primary-color {
+  color: #ff0000;
+}
+.title-font {
+  font-size: 72px;
+}
+a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #07021164;
+}
+/*shared styles*/
+
+/*new year styles*/
+.new-year {
+  background-image: url("../img/images/Banner\ Image.png");
+  /* background-size: cover;
+    background-position: center; */
+  height: 600px;
+  max-width: 1320px;
+  color: rgb(255, 255, 255);
+  margin: 50px auto;
+}
+.overlay {
+  position: absolute;
+  margin: 50px auto;
+  max-height: 600px;
+  max-width: 1320px;
+  border-radius: 15px;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.new-year-con {
+  height: 246px;
+  width: 632px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 177px 344px;
+}
+.new-year-con h5 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.new-year-con h1 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+/*discount styles*/
+.discount {
+  height: 806px;
+  width: 803px;
+  margin: 0px auto;
+  text-align: center;
+}
+.discount-container {
+  margin-bottom: 120px;
+}
+.discount-container h2 {
+  font-size: 88px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-top: 120px;
+  margin-bottom: 48px;
+}
+.discount-container p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.discount-container h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: -120px;
+  width: 410px;
+  height: 58px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.discount-container img {
+  height: 500px;
+}
+
+/* welcome styles */
+.welcome_party {
+  background-image: url(../img/images/Vectorrr.png);
+  height: 600px;
+  max-width: 1320px;
+  color: rgb(255, 255, 255);
+  margin: 120px auto;
+  padding-top: 220;
+}
+
+.welcome-container {
+  padding-top: 126px;
+  margin-left: 126px;
+}
+.welcome-container h1 {
+  font-size: 64px;
+  width: 642px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.welcome-container p {
+  font-size: 18px;
+  width: 697px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.welcome-container h6,
+a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-bottom: 0;
+  color: #ffffff;
+  margin-left: 32px;
+}
+
+/*place styles*/
+.place {
+  height: 482px;
+  max-width: 1320px;
+  border-radius: 15px;
+  background: linear-gradient(
+    rgba(255, 139, 139, 0.164),
+    rgba(254, 235, 235, 0.09)
+  );
+  margin: 120px auto;
+}
+.place-container {
+  padding-top: 100px;
+  font-size: 32px;
+}
+.place-container h3 {
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.place-container button {
+  background-color: #ff0000;
+  border: none;
+  color: #ffffff;
+  width: 167px;
+  height: 56px;
+  font-size: 20px;
+  margin-top: 48px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.place-container button:hover {
+  background-color: #009c31;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/*comming styles*/
+.comming {
+  display: flex;
+  height: 463px;
+  max-width: 1320px;
+  margin: 120px auto;
+  align-items: center;
+}
+
+.offer_part {
+  width: 393px;
+  height: 255px;
+  padding-top: 100px;
+  padding-right: 50px;
+}
+.offer_part h6 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+.offer_part h3 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.offer_img img {
+  border: 10px solid #ff0000;
+  border-radius: 100%;
+  padding: 20.8px;
+}
+.year {
+  padding-left: 118px;
+  padding-top: 40px;
+}
+
+.year h3 {
+  color: #ff0000;
+  font-size: 48px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.year p {
+  margin-top: 16px;
+  margin-bottom: 43px;
+  width: 276px;
+  height: 96px;
+  line-height: 1.5;
+}
+
+/*sale*/
+.sale {
+  height: 986.07px;
+  max-width: 1320px;
+  margin: 120px auto;
+}
+.sale-container h3 {
+  font-size: 24;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.sale-container h1 {
+  font-size: 72px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sale-container p {
+  height: 96px;
+  width: 1068px;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+
+.sale-last {
+  display: flex;
+  background-image: url(../img/images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.box img {
+  padding-top: 120px;
+}
+.discount img {
+  padding-top: 180px;
+}
+/*product*/
+.product {
+  /* height: 1163px; */
+  max-width: 1320px;
+  margin: 120px auto;
+  padding-top: 100px;
+}
+.product-con h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px;
+}
+.product-con h1 {
+  font-size: 48px;
+  margin: 0;
+}
+.product-con p {
+  height: 64px;
+  width: 896px;
+}
+.product-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  /* justify-content: space-around; */
+}
+.group1 {
+  display: flex;
+  gap: 24px;
+}
+/*subscribe*/
+.subscribe{
+    height: 661px;
+  max-width: 1320px;
+  margin: 120px auto;
+  background-color:#ffebeb5f ;
+  border-radius: 15px;
+}
+.subscribe img{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.subscribe h1{
+    font-size: 48px;
+    margin-bottom: 22px;
+
+}
+.subscribe p{
+    height: 64px;
+    width: 898px;
+    margin: 0 auto;
+}
+
+.mail{
+    padding-top: 48px;
+}
+.mail input[type="email"]{
+    height: 72px;
+    width: 648px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    outline: none;
+}
+.subscribe-but{
+    height: 72px;
+    width: 210px;
+    border: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -150px;
+    border: none;
+    border-radius:0px 50px 50px 0;
+    cursor: pointer;
+    
+}
+.subscribe-but:hover {
+    background-color: #009c31;
+    transition: .3s;
+    
+}
