@@ -176,7 +176,8 @@ a {
 .place-container button:hover {
   background-color: #009c31;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.837) ;
+  transition: all 0.2s ease-in-out;
 }
 
 /*comming styles*/
@@ -269,6 +270,7 @@ a {
 .discount img {
   padding-top: 180px;
 }
+
 /*product*/
 .product {
   /* height: 1163px; */
@@ -305,7 +307,7 @@ a {
     height: 661px;
   max-width: 1320px;
   margin: 120px auto;
-  background-color:#ffebeb5f ;
+  background-color:#ffdcdc5f ;
   border-radius: 15px;
 }
 .subscribe img{
